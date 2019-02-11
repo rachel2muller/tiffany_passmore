@@ -1,0 +1,127 @@
+/*---- Fonts-------
+font-family: 'Dancing Script', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Charm', cursive;
+font-family: 'Patrick Hand', cursive; */
+
+/*Color theme
+https://color.adobe.com/Electricity-color-theme-11891262/?showPublished=true  */
+
+
+
+
+
+
+/* ==========================================================================
+                          Body
+   ========================================================================== */
+
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    background-color: rgb(239, 204, 250);
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+p {
+  text-align: justify;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  color: #60487F;
+}
+
+  /* ==========================================================================
+                            Title and Intro
+   ========================================================================== */
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  color: #4AF8FF;
+  text-shadow: 2px 2px #60487F;
+}
+.title2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 75px;
+  text-align: center;
+  color: #4AF8FF;
+  text-shadow: 2px 2px #60487F;
+}
+.intro {
+  text-align: center;
+  margin: auto;
+}
+
+   /* ==========================================================================
+                              Books and fan-fiction
+   ========================================================================== */
+    .covers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-right: 30px;
+      pading-right: 30px;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+
+    }
+    .btitles {
+      /* text-align: center; */
+      font-family: 'Charm', cursive;
+    }
+
+    #books .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #fiction {
+      margin: 45px;
+    }
+   /* ==========================================================================
+                                About ME and Contact
+   ========================================================================== */
+    .headings {
+      text-align: center;
+      padding: 25px;
+      font-family: 'Sacramento', cursive;
+      font-size: 40px;
+      font-weight: bold;
+      color: #3D013C;
+      background-color: rgb(231, 214, 236);
+
+    }
+    .tiffany {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      border-radius: 25px;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+    }
+
+
+   /* ==========================================================================
+                                  Footer
+   ========================================================================== */
+   footer p{
+    text-align: center;
+    padding: 25px;
+   }
