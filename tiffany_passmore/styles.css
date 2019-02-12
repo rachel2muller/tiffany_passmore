@@ -68,29 +68,32 @@ p {
    /* ==========================================================================
                               Books and fan-fiction
    ========================================================================== */
-    .covers {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-right: 30px;
-      pading-right: 30px;
-      margin-bottom: 30px;
-      padding-bottom: 20px;
+    /* .covers {
+      
+      
+      margin-bottom: 50px;
+      
 
+    } */
+    .fcover {
+     
+      margin-left: auto;
+      margin-right: auto;
     }
     .btitles {
       /* text-align: center; */
       font-family: 'Charm', cursive;
+      
     }
 
-    #books .container {
+    /* #books .container {
       display: flex;
       flex-wrap: wrap;
-    }
+    } */
 
-    #fiction {
+    /* #fiction {
       margin: 45px;
-    }
+    } */
    /* ==========================================================================
                                 About ME and Contact
    ========================================================================== */
@@ -113,8 +116,9 @@ p {
     }
 
     .icons {
-      display: flex;
-      align-items: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
 
