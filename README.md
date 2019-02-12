@@ -1,2 +1,2 @@
-# tiffany_passmore.github.io
+# tiffany_passmore
 Tiffany's author site
